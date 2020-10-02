@@ -23693,6 +23693,14 @@
                 "read"
               ]
             },
+            "isGitHubAction": {
+              "description": "<code>true</code> if this is deployed via GitHub action.",
+              "type": "boolean",
+              "x-ms-mutability": [
+                "create",
+                "read"
+              ]
+            },
             "deploymentRollbackEnabled": {
               "description": "<code>true</code> to enable deployment rollback; otherwise, <code>false</code>.",
               "type": "boolean",
