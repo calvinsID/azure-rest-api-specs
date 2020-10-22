@@ -64,13 +64,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "./CommonDefinitions.json#/definitions/User"
+              "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/User"
             }
           },
           "default": {
             "description": "App Service error response.",
             "schema": {
-              "$ref": "./CommonDefinitions.json#/definitions/DefaultErrorResponse"
+              "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/DefaultErrorResponse"
             }
           }
         }
@@ -86,7 +86,7 @@
             "description": "Details of publishing user",
             "required": true,
             "schema": {
-              "$ref": "./CommonDefinitions.json#/definitions/User"
+              "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/User"
             }
           },
           {
@@ -97,13 +97,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "./CommonDefinitions.json#/definitions/User"
+              "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/User"
             }
           },
           "default": {
             "description": "App Service error response.",
             "schema": {
-              "$ref": "./CommonDefinitions.json#/definitions/DefaultErrorResponse"
+              "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/DefaultErrorResponse"
             }
           }
         }
@@ -129,7 +129,7 @@
           "default": {
             "description": "App Service error response.",
             "schema": {
-              "$ref": "./CommonDefinitions.json#/definitions/DefaultErrorResponse"
+              "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/DefaultErrorResponse"
             }
           }
         },
@@ -165,7 +165,7 @@
           "default": {
             "description": "App Service error response.",
             "schema": {
-              "$ref": "./CommonDefinitions.json#/definitions/DefaultErrorResponse"
+              "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/DefaultErrorResponse"
             }
           }
         }
@@ -205,7 +205,7 @@
           "default": {
             "description": "App Service error response.",
             "schema": {
-              "$ref": "./CommonDefinitions.json#/definitions/DefaultErrorResponse"
+              "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/DefaultErrorResponse"
             }
           }
         }
@@ -246,7 +246,7 @@
           "default": {
             "description": "App Service error response.",
             "schema": {
-              "$ref": "./CommonDefinitions.json#/definitions/DefaultErrorResponse"
+              "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/DefaultErrorResponse"
             }
           }
         },
@@ -288,7 +288,7 @@
           "default": {
             "description": "App Service error response.",
             "schema": {
-              "$ref": "./CommonDefinitions.json#/definitions/DefaultErrorResponse"
+              "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/DefaultErrorResponse"
             }
           }
         }
@@ -317,7 +317,7 @@
           "default": {
             "description": "App Service error response.",
             "schema": {
-              "$ref": "./CommonDefinitions.json#/definitions/DefaultErrorResponse"
+              "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/DefaultErrorResponse"
             }
           }
         }
@@ -386,7 +386,7 @@
           "default": {
             "description": "App Service error response.",
             "schema": {
-              "$ref": "./CommonDefinitions.json#/definitions/DefaultErrorResponse"
+              "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/DefaultErrorResponse"
             }
           }
         },
@@ -407,7 +407,7 @@
             "description": "Hostname information.",
             "required": true,
             "schema": {
-              "$ref": "./CommonDefinitions.json#/definitions/NameIdentifier"
+              "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/NameIdentifier"
             }
           },
           {
@@ -421,13 +421,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "./CommonDefinitions.json#/definitions/IdentifierCollection"
+              "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/IdentifierCollection"
             }
           },
           "default": {
             "description": "App Service error response.",
             "schema": {
-              "$ref": "./CommonDefinitions.json#/definitions/DefaultErrorResponse"
+              "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/DefaultErrorResponse"
             }
           }
         },
@@ -459,7 +459,7 @@
           "default": {
             "description": "App Service error response.",
             "schema": {
-              "$ref": "./CommonDefinitions.json#/definitions/DefaultErrorResponse"
+              "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/DefaultErrorResponse"
             }
           }
         },
@@ -491,7 +491,7 @@
           "default": {
             "description": "App Service error response.",
             "schema": {
-              "$ref": "./CommonDefinitions.json#/definitions/DefaultErrorResponse"
+              "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/DefaultErrorResponse"
             }
           }
         }
@@ -529,7 +529,7 @@
           "default": {
             "description": "App Service error response.",
             "schema": {
-              "$ref": "./CommonDefinitions.json#/definitions/DefaultErrorResponse"
+              "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/DefaultErrorResponse"
             }
           }
         },
@@ -572,7 +572,7 @@
           "default": {
             "description": "App Service error response.",
             "schema": {
-              "$ref": "./CommonDefinitions.json#/definitions/DefaultErrorResponse"
+              "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/DefaultErrorResponse"
             }
           }
         }
@@ -613,7 +613,7 @@
           "default": {
             "description": "App Service error response.",
             "schema": {
-              "$ref": "./CommonDefinitions.json#/definitions/DefaultErrorResponse"
+              "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/DefaultErrorResponse"
             }
           }
         }
@@ -651,7 +651,7 @@
           "default": {
             "description": "App Service error response.",
             "schema": {
-              "$ref": "./CommonDefinitions.json#/definitions/DefaultErrorResponse"
+              "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/DefaultErrorResponse"
             }
           }
         }
@@ -708,7 +708,7 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "./CommonDefinitions.json#/definitions/ProxyOnlyResource"
+          "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/ProxyOnlyResource"
         }
       ],
       "properties": {
@@ -798,7 +798,7 @@
           "description": "Available App Service Environments with full descriptions of the environments.",
           "type": "array",
           "items": {
-            "$ref": "./CommonDefinitions.json#/definitions/AppServiceEnvironment"
+            "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/AppServiceEnvironment"
           }
         },
         "hostingEnvironmentDeploymentInfos": {
@@ -815,7 +815,7 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "./CommonDefinitions.json#/definitions/ProxyOnlyResource"
+          "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/ProxyOnlyResource"
         }
       ],
       "properties": {
@@ -884,7 +884,7 @@
           "type": "string"
         },
         "capacity": {
-          "$ref": "./CommonDefinitions.json#/definitions/SkuCapacity",
+          "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/SkuCapacity",
           "description": "Min, max, and default scale values of the SKU."
         },
         "locations": {
@@ -898,7 +898,7 @@
           "description": "Capabilities of the SKU, e.g., is traffic manager enabled?",
           "type": "array",
           "items": {
-            "$ref": "./CommonDefinitions.json#/definitions/Capability"
+            "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/Capability"
           }
         }
       }
@@ -922,7 +922,7 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "./CommonDefinitions.json#/definitions/ProxyOnlyResource"
+          "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/ProxyOnlyResource"
         }
       ],
       "properties": {
@@ -1092,7 +1092,7 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "./CommonDefinitions.json#/definitions/ProxyOnlyResource"
+          "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/ProxyOnlyResource"
         }
       ],
       "properties": {
@@ -1272,7 +1272,7 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "./CommonDefinitions.json#/definitions/ProxyOnlyResource"
+          "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/ProxyOnlyResource"
         }
       ],
       "properties": {
@@ -1301,7 +1301,7 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "./CommonDefinitions.json#/definitions/ProxyOnlyResource"
+          "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/ProxyOnlyResource"
         }
       ],
       "properties": {
@@ -1329,7 +1329,7 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "./CommonDefinitions.json#/definitions/ProxyOnlyResource"
+          "$ref": "../2020-06-01/CommonDefinitions.json#/definitions/ProxyOnlyResource"
         }
       ],
       "properties": {
