@@ -34,7 +34,7 @@ These are the global settings for the Web API.
 title: WebSiteManagementClient
 description: WebSite Management Client
 openapi-type: arm
-tag: package-2020-09
+tag: package-2020-10
 ```
 
 ### Suppression
@@ -55,10 +55,10 @@ directive:
     reason: Model type is not an Azure resource
 ```
 
-### Tag: package-2020-09
-These settings apply only when `--tag=package-2020-09` or `--tag=package-2020-09-only` is specified on the command line.
+### Tag: package-2020-10
+These settings apply only when `--tag=package-2020-10` or `--tag=package-2020-10-only` is specified on the command line.
 NOTE: Currently these tags are the same, but it will need to be split if any files from folders other than 2020-06-01 are included.
-``` yaml $(tag) == 'package-2020-09' || $(tag) == 'package-2020-09-only'
+``` yaml $(tag) == 'package-2020-10' || $(tag) == 'package-2020-10-only'
 input-file:
 - Microsoft.CertificateRegistration/stable/2020-06-01/AppServiceCertificateOrders.json
 - Microsoft.CertificateRegistration/stable/2020-06-01/CertificateRegistrationProvider.json
@@ -71,7 +71,7 @@ input-file:
 - Microsoft.Web/stable/2020-06-01/Diagnostics.json
 - Microsoft.Web/stable/2020-06-01/Provider.json
 - Microsoft.Web/stable/2020-06-01/Recommendations.json
-- Microsoft.Web/stable/2020-09-01/ResourceProvider.json
+- Microsoft.Web/stable/2020-10-01/ResourceProvider.json
 - Microsoft.Web/stable/2020-06-01/WebApps.json
 - Microsoft.Web/stable/2020-06-01/StaticSites.json
 - Microsoft.Web/stable/2020-06-01/AppServiceEnvironments.json
