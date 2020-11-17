@@ -69,7 +69,7 @@ input-file:
 - Microsoft.Web/stable/2020-06-01/CommonDefinitions.json
 - Microsoft.Web/stable/2020-06-01/DeletedWebApps.json
 - Microsoft.Web/stable/2020-06-01/Diagnostics.json
-- Microsoft.Web/stable/2020-06-01/Provider.json
+- Microsoft.Web/stable/2020-10-01/Provider.json
 - Microsoft.Web/stable/2020-06-01/Recommendations.json
 - Microsoft.Web/stable/2020-10-01/ResourceProvider.json
 - Microsoft.Web/stable/2020-06-01/WebApps.json
