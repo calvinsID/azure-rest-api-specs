@@ -311,9 +311,6 @@
       "properties": {
         "properties": {
           "description": "Certificate resource specific properties",
-          "required": [
-            "password"
-          ],
           "properties": {
             "friendlyName": {
               "description": "Friendly name of the certificate.",
@@ -476,9 +473,6 @@
       "properties": {
         "properties": {
           "description": "CertificatePatchResource resource specific properties",
-          "required": [
-            "password"
-          ],
           "properties": {
             "friendlyName": {
               "description": "Friendly name of the certificate.",
