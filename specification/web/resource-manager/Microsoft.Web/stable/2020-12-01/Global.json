@@ -51,6 +51,11 @@
               "$ref": "./CommonDefinitions.json#/definitions/DefaultErrorResponse"
             }
           }
+        },
+        "x-ms-examples": {
+          "Get Deleted Web App": {
+            "$ref": "./examples/GetDeletedWebApp.json"
+          }
         }
       }
     },
@@ -92,6 +97,11 @@
             "schema": {
               "$ref": "./CommonDefinitions.json#/definitions/DefaultErrorResponse"
             }
+          }
+        },
+        "x-ms-examples": {
+          "Get Deleted Web App Snapshots": {
+            "$ref": "./examples/GetDeletedWebAppSnapshots.json"
           }
         }
       }
